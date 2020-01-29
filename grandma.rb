@@ -23,3 +23,7 @@
 #     return "NO, NOT SINCE 1938!".upcase
 #   end
 # end
+
+def speak_to_grandma
+end
+
