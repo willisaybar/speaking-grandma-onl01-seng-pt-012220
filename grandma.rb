@@ -19,7 +19,7 @@ def speak_to_grandma(love="I LOVE YOU GRANDMA!".upcase, hello="Hi Nana, how are 
     return "HUH?! SPEAK UP, SONNY!".upcase
   elsif hi
     return "HUH?! SPEAK UP, SONNY!".upcase
-  elsif what
+  else what
     return "NO, NOT SINCE 1938!".upcase
   end
 end
