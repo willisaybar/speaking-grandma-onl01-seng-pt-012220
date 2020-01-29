@@ -26,9 +26,10 @@
 
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase
-  elsif 
-else
-end
+    # this will be pass
+  else 
+    #this will be fail
+  end
 end
 
 speak_to_grandma("hi!")
