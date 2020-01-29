@@ -25,6 +25,8 @@
 # end
 
 def speak_to_grandma(phrase)
-  puts phrase
+  if phrase == phrase.upcase
 end
 
+speak_to_grandma("hi!")
+speak_to_grandma("HI!")
