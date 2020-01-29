@@ -29,6 +29,7 @@ def speak_to_grandma(phrase)
     # this will be pass
   else 
     #this will be fail
+    return
   end
 end
 
