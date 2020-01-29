@@ -24,12 +24,24 @@
 #   end
 # end
 
+# def speak_to_grandma(phrase)
+#   if phrase == phrase.upcase
+#     return "NO, NOT SINCE 1938!"
+#     # this will be pass
+#   elsif phrase == "I LOVE YOU GRANDMA!"
+#     return "I LOVE YOU TOO PUMPKIN!"
+#   else 
+#     #this will be fail
+#     return "HUH?! SPEAK UP, SONNY!"
+#   end
+# end
+
 def speak_to_grandma(phrase)
-  if phrase == phrase.upcase
-    return "NO, NOT SINCE 1938!"
-    # this will be pass
-  elsif phrase == "I LOVE YOU GRANDMA!"
+  if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
+    # this will be pass
+  elsif phrase == phrase.upcase
+    return "NO, NOT SINCE 1938!"
   else 
     #this will be fail
     return "HUH?! SPEAK UP, SONNY!"
